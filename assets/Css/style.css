@@ -11,9 +11,7 @@ body {
   z-index: 5;
   background-color: #9ad9ea;
   border-radius: 0px;
-  font-size: 24px;
   text-align: center;
-
 }
 
 .header a {
@@ -24,15 +22,14 @@ body {
 
 .header .url {
   position: relative;
-  top: 30px;
+  top: 15px;
   word-spacing: 200px;
 }
 
 .login {
   position: relative;
   right: -680px;
-  font-size: 20px;
-  top: 40px
+  top: 20px
 }
 
 footer {
