@@ -1,5 +1,9 @@
 .slideshow-container {
-  max-width: 1000px;
+  width: 70%;
   margin: 100px auto;
   position: relative;
+}
+
+#container {
+  width: 100px;
 }
