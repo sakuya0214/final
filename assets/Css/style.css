@@ -9,28 +9,28 @@ body {
   top: 0px;
   left: 0px;
   z-index: 50;
-  background-color: #9ad9ea;
+  color: #9ad9ea;
   border-radius: 0px;
   text-align: center;
 }
 
-.header a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav {
-  position: relative;
-  top: 10px;
+.bg-blue {
   background-color: #9ad9ea;
 }
 
-.login {
+.navbar {
+  text-decoration: none;
+  font-weight: bold;
   position: relative;
-  right: -680px;
-  top: 20px
+  font-size: 20px;
 }
+
+.logo {
+  height: 45px;
+  border-radius: 50px;
+}
+
+
 
 footer {
   position: relative;
@@ -71,4 +71,55 @@ legend.scheduler-border {
   right: 15px;
   bottom: 15px;
   z-index: 3;
+}
+
+.abs-center-x {
+  position: fixed;
+  left: 50%;
+  top: 7px;
+  transform: translateX(-50%);
+}
+
+.vertical-menu {
+  width: 15%;
+  position: relative;
+  text-align: center;
+  margin-top: -10%;
+}
+
+.vertical-menu a {
+  background-color: #f6ffa4;
+  color: #22589f;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ffbb27;
+  text-decoration: none;
+}
+
+.vertical-menu a.active {
+  background-color: #ffbb27;
+}
+
+.card {
+  margin: 20px;
+  text-align: center;
+}
+
+
+
+.title {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 20px;
+  color: #22589f;
+}
+
+.list-group {
+  margin: 45px;
+  width: 150px;
 }
